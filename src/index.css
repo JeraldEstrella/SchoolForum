@@ -1,0 +1,48 @@
+:root {
+  --color-primary: #4caf50; /* main green */
+  --color-primary-light: #81c784; /* lighter shade */
+  --color-primary-dark: #388e3c; /* darker shade */
+
+  --color-bg: #f3f3f3e0; /* background (light green hint) */
+  --color-card: #ffffff; /* card background */
+  --color-border: #b8f4d6; /* soft green border */
+  --color-hover: #c8e6c9; /* hover state */
+
+  /* Text Colors */
+  --color-text: #1b4332; /* dark greenish text */
+  --color-text-muted: #4f7942; /* muted green-gray */
+
+  /* Utility */
+  --radius: 10px;
+  --shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+
+  --font-family: 'Segoe UI', sans-serif;
+
+  /*text custom styless
+
+  /* Font sizes */
+  --fs-xs: 0.75rem; /* 12px */
+  --fs-sm: 0.875rem; /* 14px */
+  --fs-md: 1rem; /* 16px */
+  --fs-lg: 1.25rem; /* 20px */
+  --fs-xl: 1.5rem; /* 24px */
+
+  /* Font weights */
+  --fw-regular: 400;
+  --fw-medium: 500;
+  --fw-bold: 700;
+
+  /* Line heights */
+  --lh-base: 1.5;
+}
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+  background-color: var(--color-bg);
+}

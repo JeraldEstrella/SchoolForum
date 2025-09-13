@@ -1,0 +1,33 @@
+.sidebar-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+  padding: 1rem;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+.siderbar-communities {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.siderbar-communities a {
+  text-decoration: none;
+  padding: 0.75rem;
+  border-radius: 8px;
+  text-align: center;
+  color: var(--color-text);
+}
+
+.siderbar-communities a:hover {
+  background-color: var(--color-hover);
+}
+
+@media (max-width: 600px) {
+  .sidebar-container {
+    display: none;
+  }
+}

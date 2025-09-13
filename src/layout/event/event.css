@@ -1,0 +1,28 @@
+.event-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 0;
+}
+
+.event-cards {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  overflow-x: scroll;
+  transition: all 152ms ease-in-out;
+}
+
+.event-cards::-webkit-scrollbar {
+  display: flex;
+  height: 100%;
+  background-color: transparent;
+}
+
+@media (max-width: 700px) {
+  .event-cards {
+    flex-wrap: wrap;
+    overflow-x: visible;
+    justify-content: center;
+  }
+}
