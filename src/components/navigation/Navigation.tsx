@@ -1,4 +1,5 @@
 import { Home, FileText, Info } from 'lucide-react';
+import { Link } from 'react-router-dom';
 import './navigation.css';
 
 const Navigation = () => {
@@ -13,10 +14,10 @@ const Navigation = () => {
       <span className='logo'>FORUM</span>
       <div className='navigation-links'>
         {links.map((link) => (
-          <a href=''>
+          <Link to={link.href} key={link.label}>
             <link.icon size={20} className='icon' />
             {link.label}
-          </a>
+          </Link>
         ))}
       </div>
       <button>Login</button>
